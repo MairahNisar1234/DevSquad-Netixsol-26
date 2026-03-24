@@ -1,0 +1,234 @@
+/* GENERAL BODY STYLING */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* CV CONTAINER - centers content and prevents stretching */
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* INTRO SECTION */
+.cv-container .intro {
+    text-align: center;
+}
+
+.cv-container .intro h2 {
+    margin-bottom: 5px;
+}
+
+.cv-container .role {
+    color: #555;
+    font-style: italic;
+}
+
+.cv-container .info {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cv-container .info span {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+/* PROFILES */
+.profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.profile .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* SECTION HEADINGS */
+section h3 {
+    margin-bottom: 10px;
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* JOB / EXPERIENCE SECTIONS */
+.job-entry {
+    margin-bottom: 20px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.job-meta {
+    text-align: right;
+}
+
+.company-link {
+    color: #38a169;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.company-link:hover {
+    text-decoration: underline;
+}
+
+.job-details {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
+
+/* EDUCATION */
+.education, .summary {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.date-box {
+    text-align: right;
+}
+
+/* PROJECTS */
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.project-entry .role {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.project-entry p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skills-entry .role {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.skills-entry p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* CERTIFICATIONS */
+.cert-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cert-date {
+    font-weight: bold;
+}
+
+.provider {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* LANGUAGES */
+.languages-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.lang-unit span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 768px) {
+    .skills-grid, .projects-grid, .cert-grid, .languages-grid {
+        grid-template-columns: 1fr; /* stack on smaller screens */
+    }
+    .education, .summary {
+        grid-template-columns: 1fr; /* stack labels & content */
+    }
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .job-meta {
+        text-align: left;
+        margin-top: 5px;
+    }
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+}
