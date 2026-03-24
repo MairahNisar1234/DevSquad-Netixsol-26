@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
+
+<title>Epic Navbar</title>
+</head>
+
+<body class="bg-black">
+
+<nav class="bg-[#202020] h-14 flex items-center">
+
+<div class="max-w-350 mx-auto flex justify-between items-center w-full px-6">
+
+<!-- Left -->
+<div class="flex items-center gap-8">
+
+<img src="./assets/logo.png" class="w-7 h-7" alt="logo">
+
+<!-- Desktop Menu -->
+<ul id="menu" class="hidden md:flex items-center gap-8 text-gray-300 text-sm">
+
+<li class="nav-item active">STORE</li>
+<li class="nav-item">FAQ</li>
+<li class="nav-item">HELP</li>
+<li class="nav-item">UNREAL ENGINE</li>
+
+</ul>
+
+</div>
+
+<!-- Right -->
+<div class="hidden md:flex items-center gap-6 text-gray-300 text-sm">
+
+<a href="#"><img src="assets/Frame.png"></a>
+<a href="#"><img src="assets/person.png"></a>
+<a href="#" class="hover:text-white">SIGN IN</a>
+
+<button class="bg-blue-500 text-white px-4 py-2 text-xs font-bold hover:bg-blue-600">
+DOWNLOAD
+</button>
+
+</div>
+
+<!-- Mobile Menu Button -->
+<button id="menu-btn" class="md:hidden text-white text-2xl">
+☰
+</button>
+
+</div>
+
+</nav>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden bg-[#202020] text-gray-300 px-6 py-4 space-y-4 md:hidden">
+
+<a href="#" class="block">STORE</a>
+<a href="#" class="block">FAQ</a>
+<a href="#" class="block">HELP</a>
+<a href="#" class="block">UNREAL ENGINE</a>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

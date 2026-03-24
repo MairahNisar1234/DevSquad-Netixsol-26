@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Point Tailwind to your HTML file location */
+@source "./*.html";
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 100;
+  src: url('./fonts/Poppins-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+@theme {
+  --color-epic-grey: #AAAAAADE;
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
