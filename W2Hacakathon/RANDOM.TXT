@@ -1,0 +1,54 @@
+function saveUser() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const passConfirm = document.getElementById("c-password").value;
+    const emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (password.length()<6){
+        alert("Password can't be less than 6 characters")
+    }
+
+    if (password !== passConfirm) {
+        alert("Passwords do not match!");
+        return;
+    }
+
+
+    if (email === "") {
+        alert("Please enter a valid email!");
+        return;
+    }
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address (e.g., name@example.com)");
+        return; // This prevents the code from moving to localStorage
+    }
+    
+
+    const user = {
+        name: name,
+        email: email,
+        password: password
+    };
+
+    localStorage.setItem('quizUser', JSON.stringify(user));
+    
+    // 6. Success feedback and redirect
+    alert("Account Saved Successfully!");
+    showPage('mainpage'); 
+}
+
+
+
+
+
+
+function showPage(pageId) {
+    // 1. Hide all elements with the class 'page'
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.add('hidden');
+    });
+    
+    // 2. Remove 'hidden' from the specific page requested
+    document.getElementById(pageId).classList.remove('hidden');
+}
