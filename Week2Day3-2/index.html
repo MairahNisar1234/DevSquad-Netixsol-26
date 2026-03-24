@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Cart Modal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 min-h-screen flex items-center justify-center font-sans">
+
+  <div class="bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden relative">
+    
+
+    <div class="relative h-48">
+      <img src="assets/pizza.png" , alt="Pizza" ,class="w-full h-full object-cover">
+
+      <button onclick="closeModal()" 
+        class="absolute top-4 right-4 bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shadow-lg">
+        ✕
+      </button>
+    </div>
+
+    <div id="pizzaContainer" class="p-6 space-y-7 max-h-90 overflow-y-auto">
+
+    </div>
+
+ 
+    <div class="p-6 border-t border-gray-100">
+      <div class="flex justify-between items-center mb-4">
+        <span class="bg-orange-400 text-white px-3 py-1 rounded text-xs font-bold uppercase">
+          Total to pay
+        </span>
+        <span id="total-price" class="text-orange-500 text-2xl font-black">
+          £0.00
+        </span>
+      </div>
+
+      <p class="text-[10px] text-gray-400 text-center mb-6">
+        Delivery & Tax will be calculated in the next step
+      </p>
+
+      <div class="flex flex-col items-center gap-3">
+        <button class="w-full bg-green-600 text-white py-3 rounded-xl font-bold text-lg hover:bg-green-700 transition">
+          Checkout
+        </button>
+
+        <a href="#" class="text-xs font-bold text-gray-800 underline decoration-2 underline-offset-4">
+          Take me back
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
