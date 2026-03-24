@@ -1,0 +1,98 @@
+/* GLOBAL RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* THE GRID CONTAINER */
+.testimonial-grid {
+  display: grid;
+  max-width: 1110px;
+  gap: 24px;
+  padding: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+}
+
+/* BASE CARD STYLES (What they all share) */
+.testimonial {
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -10px rgba(72, 85, 106, 0.1);
+  position: relative; /* For the quote icon later */
+}
+
+/* POSITIONING & COLORS */
+.daniel { 
+  grid-area: daniel; 
+  background-color: hsl(263, 55%, 52%); 
+  color: white;
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 right 20%;
+}
+.jonathan { grid-area: jonathan; background-color: hsl(217, 19%, 35%); color: white; }
+.jeanette { grid-area: jeanette; background-color: white; color: hsl(217, 19%, 35%); }
+.patrick { grid-area: patrick; background-color: hsl(219, 29%, 14%); color: white; }
+.kira { grid-area: kira; background-color: white; color: hsl(217, 19%, 35%); }
+
+/* TYPOGRAPHY & HEADER */
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.card-header img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Jeanette and Kira have dark images, so let's fix their border */
+.jeanette img, .kira img { border-color: rgba(0,0,0,0.1); }
+
+.author { font-size: 13px; font-weight: 500; }
+.role { font-size: 11px; opacity: 0.5; }
+
+.headline {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.quote {
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "daniel"
+      "jonathan"
+      "jeanette"
+      "patrick"
+      "kira";
+  }
+}
