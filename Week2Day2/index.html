@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator App</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            purpleCustom: 'hsl(259, 100%, 65%)',
+            offWhite: 'hsl(0, 0%, 94%)',
+            lightGrey: 'hsl(0, 0%, 86%)',
+            smokeyGrey: 'hsl(0, 1%, 44%)',
+            offBlack: 'hsl(0, 0%, 8%)',
+          },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-offWhite font-poppins flex items-center justify-center min-h-screen p-4">
+
+  <main class="bg-white p-6 md:p-12 rounded-2xl rounded-br-[100px] md:rounded-br-[150px] w-full max-w-[700px] shadow-sm">
+    
+    <form id="age-form" class="mb-8">
+      <div class="flex gap-4 md:gap-8 mb-12 md:mb-0">
+        <div class="flex flex-col gap-2">
+          <label for="day" class="text-xs font-bold tracking-[0.2em] text-smokeyGrey">DAY</label>
+          <input type="text" id="day" placeholder="DD" class="border border-lightGrey rounded-lg p-3 w-full max-w-[100px] md:max-w-[150px] text-xl md:text-3xl font-extrabold focus:outline-none focus:border-purpleCustom cursor-pointer">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="month" class="text-xs font-bold tracking-[0.2em] text-smokeyGrey">MONTH</label>
+          <input type="text" id="month" placeholder="MM" class="border border-lightGrey rounded-lg p-3 w-full max-w-[100px] md:max-w-[150px] text-xl md:text-3xl font-extrabold focus:outline-none focus:border-purpleCustom cursor-pointer">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="year" class="text-xs font-bold tracking-[0.2em] text-smokeyGrey">YEAR</label>
+          <input type="text" id="year" placeholder="YYYY" class="border border-lightGrey rounded-lg p-3 w-full max-w-[100px] md:max-w-[150px] text-xl md:text-3xl font-extrabold focus:outline-none focus:border-purpleCustom cursor-pointer">
+        </div>
+      </div>
+
+      <div class="relative flex items-center justify-center md:justify-end my-10 md:my-0">
+        <hr class="w-full border-lightGrey">
+        <button type="submit" id="submit" class="absolute bg-purpleCustom hover:bg-offBlack transition-all rounded-full p-4 w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" class="scale-75 md:scale-100">
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </form>
+
+    <div class="flex flex-col text-5xl md:text-8xl italic font-black leading-[1.1]">
+      <div class="flex gap-2">
+        <span class="text-purpleCustom" id="output-year">--</span> 
+        <span class="text-offBlack">years</span>
+      </div>
+      <div class="flex gap-2">
+        <span class="text-purpleCustom" id="output-month">--</span> 
+        <span class="text-offBlack">months</span>
+      </div>
+      <div class="flex gap-2">
+        <span class="text-purpleCustom" id="output-days">--</span> 
+        <span class="text-offBlack">days</span>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
