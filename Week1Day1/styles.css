@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    
+}
+
+/* Header */
+header {
+    background-image: url('assets/travel.jpg');
+    color: #fcfefe;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 50px;
+}
+header p{
+     font-family: "Work Sans", sans-serif;
+     font-weight: semi-bold;
+}
+/* Navigation */
+nav {
+    background: #f7f7f7;
+    text-align: center;
+    color:black;
+    padding: 10px 0;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #606470;
+}
+#about h2{
+    text-align:center;
+    margin-bottom: 10px;
+}
+/* Sections */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    list-style-type: square;
+    margin-bottom: 15px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #acdcee;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #2e94b9;
+    color: white;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+input, textarea, select, button {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"], button {
+    background: #2e94b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #f7f7f7;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Aside */
+aside {
+    background: #f7f7f7;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#destinations h2{
+    text-align:center;
+    margin-bottom: 10px;
+}
+#destinations img{ 
+    border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}

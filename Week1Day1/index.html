@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Explore the World - Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+<header>
+    <h1>Explore the World</h1>
+    <p>Your guide to the most amazing travel destinations!</p>
+</header>
+
+<nav>
+    <a href="#about" id="#about-link">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#topplaces">Top Places</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to <b>Explore the World</b> — a website dedicated to helping travelers discover amazing destinations across the globe.</p>
+        <p>We provide detailed guides, travel tips, and inspiration for your next adventure. Whether you're looking for mountains, beaches, or cultural experiences, we have something for everyone.</p>
+        <aside>
+            <h3>Tip:</h3>
+            <p>Always check travel advisories before planning your trip!</p>
+        </aside>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <ul>
+            <li>
+                <h3>Paris, France</h3>
+                <img src="assets/france.jpg" alt="Paris">
+                <p>Explore the city of love, visit the Eiffel Tower, and enjoy French cuisine.</p>
+            </li>
+            <li>
+                <h3>Tokyo, Japan</h3>
+                <img src="assets/japan.jpg" alt="Tokyo">
+                <p>Experience the blend of <em>tradition and modernity in Japan’s vibrant capital.</em>e</p>
+            </li>
+            <li>
+                <h3>Sydney, Australia</h3>
+                <img src="assets/sydeny.jpg" alt="Sydney">
+                <p>Visit the iconic Sydney Opera House and enjoy the sunny beaches.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Table Section -->
+    <section id="topplaces">
+        <h2>Top Travel Destinations (Rating 1-5)</h2>
+        <table>
+            <tr>
+                <th>Destination</th>
+                <th>Country</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>France</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Tokyo</td>
+                <td>Japan</td>
+                <td>4.8</td>
+            </tr>
+            <tr>
+                <td>Sydney</td>
+                <td>Australia</td>
+                <td>4.7</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone:</label>
+            <textarea id="phone" name="phone" placeholder="Phone Number"  required></textarea>
+
+             <label for="subject">Subject:</label>
+            <textarea id="subject" name="phone" placeholder="Phone Number"  required></textarea>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Multimedia -->
+    <section id="media">
+        <h2>Travel Videos</h2>
+        <video width="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Explore the World | All rights reserved</p>
+</footer>
+
+</body>
+</html>
