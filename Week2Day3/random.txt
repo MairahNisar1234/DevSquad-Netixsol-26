@@ -1,0 +1,449 @@
+ <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+
+
+      <!------
+
+<section class="max-w-7xl mx-auto p-6 my-10">
+  <h2 class="text-3xl font-bold mb-8">Similar Restaurants</h2>
+  
+  <div class="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 gap-6">
+    
+    <div class="bg-[#E51212] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/mcd.png" class="w-24 h-24 object-contain" alt="McDonald's">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        McDonald's London
+      </div>
+    </div>
+
+    <div class="bg-[#E51212] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/papa.png" class="w-24 h-24 object-contain" alt="KFC">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        Papa Johns
+      </div>
+    </div>
+
+    <div class="bg-[#F5EBDC] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/KFC.png" class="w-24 h-24 object-contain shrink-0" alt="Burger King">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        KFC West London
+      </div>
+    </div>
+    <div class="bg-[#E51212] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/mcdonalds.png" class="w-24 h-24 object-contain" alt="McDonald's">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        Texas Chicken London
+      </div>
+    </div>
+    <div class="bg-[#E51212] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/burgerking.png" class="w-24 h-24 object-contain" alt="McDonald's">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        Burger King
+      </div>
+    </div>
+    <div class="bg-[#E51212] rounded-[2.5rem] overflow-hidden flex flex-col items-center justify-between h-72 shadow-sm">
+      <div class="flex-1 flex items-center justify-center p-6">
+        <img src="assets/shaurma.png" class="w-24 h-24 object-contain" alt="McDonald's">
+      </div>
+      <div class="bg-[#FC8A06] w-full py-4 text-center text-white text-xs font-bold">
+        Shaurma 1
+      </div>
+    </div>
+
+  </div>
+</section>-------->
+    </div>
+
+
+
+
+    <section class="max-w-7xl mx-auto p-6 mt-10">
+  <!----ROW1-->
+  <h2 class="text-3xl font-bold mb-8">Burgers</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
+<!---ROW2-->
+   <section class="max-w-7xl mx-auto p-6 mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/royal_cheese.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
+<!----FRIES ROW 1-->
+
+<section class="max-w-7xl mx-auto p-6 mt-10">
+      <h2 class="text-3xl font-bold mb-8">Fries</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
+<!----ROW2 FRIES-->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">The classics for 3</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries3.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">The classics for 3</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries3.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">The classics for 3</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/fries3.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
+<!--- ColdDrinkrow1-->
+<section class="max-w-7xl mx-auto p-6 mt-10">
+      <h2 class="text-3xl font-bold mb-8">Cold Drinks</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/pink.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/blue.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/white.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
+<!----ROW2 ColdDrinks-->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/small.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/juice.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+      </div>
+    </div>
+     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 flex items-center justify-between hover:shadow-md transition-shadow cursor-pointer">
+      
+      <div class="flex-1 pr-4">
+        <h3 class="font-bold text-lg leading-tight">Royal Cheese Burger with extra Fries</h3>
+        <p class="text-xs text-gray-500 mt-2 line-clamp-2">
+          1 McDonald's™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium French fries...
+        </p>
+        <p class="font-bold text-slate-900 mt-4">GBP 23.10</p>
+      </div>
+
+      <div class="relative w-32 h-32 flex-shrink-0">
+        <img src="assets/white.png" class="w-full h-full object-cover rounded-xl" alt="Burger">
+        
+        <button class="absolute -bottom-2 -right-2 bg-white w-10 h-10 rounded-tl-2xl rounded-br-xl shadow-lg flex items-center justify-center hover:bg-orange-50 transition-colors">
+          <span class="bg-zinc-900 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-light">+</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </section>
