@@ -1,0 +1,123 @@
+{
+  "info": {
+    "_postman_id": "abc61c6c-cecc-493d-9e7a-c608bcd952b2",
+    "name": "Task Tracker",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "44216288",
+    "_collection_link": "https://go.postman.co/collection/44216288-abc61c6c-cecc-493d-9e7a-c608bcd952b2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "PUT",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Complete Mathematucs\", \"completed\": false, \"status\": \"in progress\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/putrequest/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "putrequest",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Learn Tailwind\", \"completed\": false, \"status\": \"in progress\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/postrequest",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "postrequest"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/delete/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "delete",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "STAT",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/stats",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "stats"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET-ID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
