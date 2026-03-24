@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 flex justify-center items-center min-h-screen">
+
+  <main class="bg-white w-full max-w-2xl p-6 rounded-lg shadow-sm">
+    
+    <header class="flex justify-between items-center mb-6">
+      <div class="flex items-center gap-2">
+        <h1 class="text-xl font-bold">Notifications</h1>
+        <span class="unread-count bg-blue-900 text-white px-2 rounded-md text-sm">3</span>
+      </div>
+      <p class="mark-all-btn text-gray-500 cursor-pointer hover:text-blue-900 text-sm font-medium">Mark all as read</p>
+    </header>
+
+    <section class="flex flex-col gap-3">
+
+      <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+        <img src="./assets/images/avatar-mark-webber.webp" class="w-10 h-10" alt="Mark">
+        <div class="text-sm">
+          <p class="text-gray-600">
+            <span class="font-bold text-black hover:text-blue-900 cursor-pointer">Mark Webber</span> 
+            reacted to your recent post 
+            <span class="font-bold text-gray-700 hover:text-blue-900 cursor-pointer">My first tournament today!</span>
+            <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+          </p>
+          <p class="text-gray-400">1m ago</p>
+        </div>
+      </div>
+
+      <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+        <img src="./assets/images/avatar-angela-gray.webp" class="w-10 h-10" alt="Angela">
+        <div class="text-sm">
+          <p class="text-gray-600">
+            <span class="font-bold text-black">Angela Gray</span> followed you
+            <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+          </p>
+          <p class="text-gray-400">5m ago</p>
+        </div>
+      </div>
+
+
+      <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+  <img src="./assets/images/avatar-rizky-hasanuddin.webp" class="w-10 h-10" alt="Rizky">
+  <div class="text-sm">
+    <p class="text-gray-600">
+      <span class="font-bold text-black">Rizky Hasanuddin</span> sent you a private message
+      <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+    </p>
+    <p class="text-gray-400 mb-2">5 days ago</p>
+    
+    <div class="private-message border border-gray-200 p-4 rounded-md hover:bg-blue-100 cursor-pointer">
+      Hello, thanks for setting up the Chess Club...
+    </div>
+  </div>
+</div>
+<div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+    <img src="./assets/images/avatar-mark-webber.webp" class="w-10 h-10" alt="Mark">
+    <div class="text-sm">
+      <p class="text-gray-600">
+        <span class="font-bold text-black hover:text-blue-900 cursor-pointer">Mark Webber</span> 
+        reacted to your recent post 
+        <span class="font-bold text-gray-700 hover:text-blue-900 cursor-pointer">My first tournament today!</span>
+        <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+      </p>
+      <p class="text-gray-400">1m ago</p>
+    </div>
+  </div>
+
+  <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+    <img src="./assets/images/avatar-angela-gray.webp" class="w-10 h-10" alt="Angela">
+    <div class="text-sm">
+      <p class="text-gray-600">
+        <span class="font-bold text-black">Angela Gray</span> followed you
+        <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+      </p>
+      <p class="text-gray-400">5m ago</p>
+    </div>
+  </div>
+
+  <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+    <img src="./assets/images/avatar-rizky-hasanuddin.webp" class="w-10 h-10" alt="Rizky">
+    <div class="text-sm">
+      <p class="text-gray-600">
+        <span class="font-bold text-black">Rizky Hasanuddin</span> sent you a private message
+        <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+      </p>
+      <p class="text-gray-400 mb-2">5 days ago</p>
+      <div class="private-message border border-gray-200 p-4 rounded-md hover:bg-blue-100 cursor-pointer">
+        Hello, thanks for setting up the Chess Club...
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="notification-card unread-bg flex gap-4 p-4 rounded-md bg-blue-50">
+    <img src="./assets/images/avatar-jacob-thompson.webp" class="w-10 h-10" alt="Jacob">
+    <div class="text-sm">
+      <p class="text-gray-600">
+        <span class="font-bold text-black hover:text-blue-900 cursor-pointer">Jacob Thompson</span> liked your photo
+        <span class="dot inline-block w-2 h-2 bg-red-500 rounded-full ml-1"></span>
+      </p>
+      <p class="text-gray-400">10m ago</p>
+    </div>
+  </div>
+
+  
+    </section>
+
+    
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
