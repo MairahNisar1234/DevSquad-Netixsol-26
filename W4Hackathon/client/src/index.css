@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* Add this to force the Figma background immediately */
+body {
+  @apply bg-black text-white;
+  margin: 0;
+  background-color: #000000;
+}
