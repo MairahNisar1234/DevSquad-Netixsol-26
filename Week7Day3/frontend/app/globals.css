@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Direct colors from your Figma design */
+  --color-background: #020617;
+  --color-neon-green: #2ED573;
+  --color-mint: #A8FFEC;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui;
+}
+
+/* Base resets to match the dark theme */
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--font-montserrat), sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-neon-gradient {
+    background: linear-gradient(to right, #ffffff, #2ED573);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .glass-card {
+    background: var(--color-glass);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--color-glass-border);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .glass-card:hover {
+    border-color: rgba(46, 213, 115, 0.5);
+    box-shadow: 0 0 20px rgba(46, 213, 115, 0.1);
+  }
+
+ /* The blurry background spots from your design */
+  .blur-spot {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px); 
+    z-index: 0;        
+    pointer-events: none;
+    opacity: 0.15;     
+  }
+}

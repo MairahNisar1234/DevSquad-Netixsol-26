@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const URL = 'http://localhost:3001'; 
+const URL = 'https://deploy-nexus.onrender.com'; 
 
 export const socket = io(URL, {
   autoConnect: false, // Better to connect manually after checking for token

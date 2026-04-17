@@ -1,13 +1,13 @@
 import { Controller, Get, Post, Param, UseGuards, Req, Body } from '@nestjs/common';
 import { CommentsService } from './comments.services';
 import { JwtAuthGuard } from '../users/jwt-auth.guard';
-import { CommentsGateway } from './comments.gateway'; // 👈 Import the Gateway
+import { CommentsGateway } from './comments.gateway'; 
 
 @Controller('comments') 
 export class CommentsController {
   constructor(
     private readonly commentsService: CommentsService,
-    private readonly commentsGateway: CommentsGateway // 👈 Inject the Gateway
+    private readonly commentsGateway: CommentsGateway 
   ) {}
 
   @Get(':postId')
