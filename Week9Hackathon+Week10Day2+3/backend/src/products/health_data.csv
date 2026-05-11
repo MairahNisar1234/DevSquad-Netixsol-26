@@ -1,0 +1,11 @@
+title,category,price,description,symptoms_addressed,stock_quantity,image_url
+Calcium Plus,Supplements,1200,High-absorption calcium with Vitamin D3 for bone density.,"weak bones, joint pain, osteoporosis",50,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699954/glucosamine_veaipl.webp
+Biotin Max,Hair Care,1500,Natural B7 vitamin complex to support keratin strength.,"hair fall, thinning hair, brittle nails",35,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699954/biotin_hntw9s.webp
+Omega-3 Fish Oil,Heart Health,2200,Pure EPA/DHA fatty acids for cardiovascular support.,"high cholesterol, heart health",25,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699954/oil_q0iops.webp
+Ashwagandha,Wellness,950,Adaptogenic herb to help manage stress and cortisol.,"anxiety, stress, insomnia, tiredness",40,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699954/ash_xwn2fk.webp
+Vitamin C,Immunity,800,Powerful antioxidant for immune system support.,"fever, cold, weak immunity",100,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699954/vitamin_C_rv7hji.webp
+Glucosamine,Joint Care,1850,Advanced formula to support joint lubrication.,"knee pain, stiffness, arthritis",20,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699953/probiotic_ilel2d.jpg
+Iron Vital,Supplements,1100,Gentle iron supplement with Vitamin C.,"anemia, dizziness, fatigue",45,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699953/iron_t4weoh.webp
+Melatonin Sleep,Wellness,1300,Natural sleep aid to regulate circadian rhythms.,"insomnia, restless sleep",30,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699953/melatonin_guxatd.webp
+Probiotic Gold,Digestive,2500,Multi-strain probiotic for gut microbiome balance.,"bloating, indigestion, IBS",15,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699953/probiotic_ilel2d.jpg
+Magnesium Night,Wellness,1400,Pure magnesium citrate to relax muscles.,"muscle cramps, leg pain, tension",60,https://res.cloudinary.com/dru7ig67d/image/upload/v1777699953/magnessium_qkxzhf.webp
